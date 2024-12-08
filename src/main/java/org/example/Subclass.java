@@ -4,7 +4,7 @@ public class Subclass extends Abstract {
 
 
     public void countVowel(String text) {
-        int count = 0;  //შემოვიტანოთ ხმოვნების მთვლელი
+        int count = 0;  //შემოვიტანოთ ხმოვნების მთვლელიi
 
         for (int i = 0; i < text.length(); i++) {
             char ch = text.charAt(i); //დავატრიალოთ ციკლი რომ გადაუაროს ყველა სიმბოლოს ტექსტში
